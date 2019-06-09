@@ -26,4 +26,4 @@ The smoothness loss is also different: I kept getting nan with the logarithmic o
 
 also, the bilateral slice op is borrowed from this repo: https://github.com/dragonkao730/BilateralGrid/blob/master/bilaterial_grid.py
 
-I am still training the model, and will upload the pre-trained weight if I got visual satisfying result.
+I am still training the model, and will upload the pre-trained weight if I got visual satisfying result.(There are some problems with these codes now, i am trying to modify them and will update later)
