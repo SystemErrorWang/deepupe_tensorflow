@@ -16,6 +16,12 @@ cudnn 7.3.1
 
 pytorch 1.0(i used pytorch dataloader)
 
+
+update 2019.07.10:
+
+I believe the codes in this repo will not get reasonale result, maybe the code (bilateral upsample), maybe the dataset(they are not strictly aligned, so pixel-wise loss will learn a mess). Recently I tried deep guided filter with re-process dataset, and got much better result. I will update my code once I have time, maybe in this repo, or open a new repo.
+
+
 I guess this code can run on recent tensorflow versions without main problems but you may need to modify the dataloader part, as I am using post-processed hdr_burst dataset with photos arranged in my own way.
 
 There are some differences bewteen my implementation and the original paper:
